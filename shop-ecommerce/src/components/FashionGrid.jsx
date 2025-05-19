@@ -31,10 +31,11 @@ const FashionGrid = () => {
             alt={item.title}
             className="w-full h-96 object-cover"
           />
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent text-white p-5">
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent text-white p-5   .m-6
+margin: 1.5rem;">
             <h2 className="text-xl font-semibold">{item.title}</h2>
             {item.hover && (
-              <p className="opacity-0 group-hover:opacity-100 transition duration-300 mt-2 underline text-sm">
+              <p className="opacity-0 group-hover:opacity-100 transition duration-300 mt-2 underline text-sm mx-auto ">
                 Shop Now
               </p>
             )}

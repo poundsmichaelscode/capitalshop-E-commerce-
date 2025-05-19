@@ -7,7 +7,7 @@ const HeroSection = () => {
       className="bg-cover bg-center h-[600px] flex items-center"
       style={{ backgroundImage: `url(${heroImg})` }}
     >
-      <div className="ml-auto w-[40%] mr-16 text-right ">
+      <div className="ml-auto w-[40%] mr-16 text-right font-Jost ">
         <motion.h2
           className="text-pink-500 text-3xl mb-2"
           initial={{ opacity: 0, y: 20 }}
